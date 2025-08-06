@@ -35,4 +35,7 @@ USER_DB=TU_USUARIO_ATLAS
 PASS_DB=TU_PASSWORD_ATLAS
 SERVER_DB=tucluster.mongodb.net
 JWT_TOKEN_SECRET=clave-secreta
-
+```
+4.Ejecuta el servidor:
+```
+node app.js
