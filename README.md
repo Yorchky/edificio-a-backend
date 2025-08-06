@@ -22,7 +22,7 @@ Este proyecto es una API backend desarrollada con Node.js, Express y MongoDB Atl
 git clone https://github.com/Yorchky/edificio-a-backend.git
 cd edificio-a-backend
 
-2. Instala las dependencias:
 ```
+2. Instala las dependencias:
 npm install
 
