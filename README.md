@@ -39,9 +39,10 @@ JWT_TOKEN_SECRET=clave-secreta
 4. Ejecuta el servidor:
 ```
 node app.js
+```
 
-## Estructura del proyecto
----
+## Estructura Del Proyecto
+
 ```md
 ├── app.js
 ├── config/
