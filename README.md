@@ -26,3 +26,5 @@ cd edificio-a-backend
 2. Instala las dependencias:
 npm install
 
+
+```
