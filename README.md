@@ -59,5 +59,10 @@ node app.js
 ├── .env.example
 └── README.md
 
+Autor
+Yorchky
 
+Universidad Tecnológica El Retoño
+
+Bases de Datos para Cómputo en la Nube – 5to cuatrimestre
 
