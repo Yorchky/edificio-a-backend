@@ -3,7 +3,6 @@
 Este proyecto es una API backend desarrollada con Node.js, Express y MongoDB Atlas. Permite gestionar el estado de ocupación de aulas y espacios de estacionamiento en tiempo real, con autenticación por roles (profesor/estudiante) mediante JSON Web Tokens (JWT).
 
 ---
-
 ## Tecnologías utilizadas
 
 - Node.js + Express
@@ -11,8 +10,8 @@ Este proyecto es una API backend desarrollada con Node.js, Express y MongoDB Atl
 - JSON Web Tokens (JWT)
 - Bcrypt (encriptación de contraseñas)
 - dotenv (variables de entorno)
-
 ---
+
 ## Instrucciones de instalación
 
 1. Clona este repositorio:
