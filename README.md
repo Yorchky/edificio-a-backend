@@ -13,7 +13,6 @@ Este proyecto es una API backend desarrollada con Node.js, Express y MongoDB Atl
 - dotenv (variables de entorno)
 
 ---
-
 ## Instrucciones de instalación
 
 1. Clona este repositorio:
@@ -33,8 +32,6 @@ JWT_TOKEN_SECRET=clave-secreta
 
 4. Ejecuta el servidor:
 node app.js
-
-
 ---
 
 ```md
