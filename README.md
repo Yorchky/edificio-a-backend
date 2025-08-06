@@ -20,7 +20,7 @@ git clone https://github.com/Yorchky/edificio-a-backend.git
 cd edificio-a-backend
 
 2. Instala las dependencias:
-```bash
+```
 npm install
 
 3. Crea un archivo .env con las siguientes variables:
@@ -32,6 +32,7 @@ JWT_TOKEN_SECRET=clave-secreta
 
 4. Ejecuta el servidor:
 node app.js
+```
 ---
 
 ```md
