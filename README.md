@@ -22,6 +22,7 @@ cd edificio-a-backend
 
 2. Instala las dependencias:
 npm install
+---
 
 3. Crea un archivo .env con las siguientes variables:
 PORT=4000
