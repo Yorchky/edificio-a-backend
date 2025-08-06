@@ -19,12 +19,11 @@ Este proyecto es una API backend desarrollada con Node.js, Express y MongoDB Atl
 git clone https://github.com/Yorchky/edificio-a-backend.git
 cd edificio-a-backend
 
-```bash
+
 2. Instala las dependencias:
 npm install
 
 3. Crea un archivo .env con las siguientes variables:
-```
 PORT=4000
 USER_DB=TU_USUARIO_ATLAS
 PASS_DB=TU_PASSWORD_ATLAS
@@ -33,8 +32,8 @@ JWT_TOKEN_SECRET=clave-secreta
 
 4. Ejecuta el servidor:
 node app.js
-```
----
+
+
 
 ```md
 ├── app.js
