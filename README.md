@@ -41,6 +41,7 @@ JWT_TOKEN_SECRET=clave-secreta
 node app.js
 
 ## Estructura del proyecto
+---
 ```md
 ├── app.js
 ├── config/
