@@ -27,5 +27,12 @@ cd edificio-a-backend
 ```
 npm install
 
-
+```
+3.Crea un archivo .env con las siguientes variables:
+```
+PORT=4000
+USER_DB=TU_USUARIO_ATLAS
+PASS_DB=TU_PASSWORD_ATLAS
+SERVER_DB=tucluster.mongodb.net
+JWT_TOKEN_SECRET=clave-secreta
 
