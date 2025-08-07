@@ -73,7 +73,7 @@ class AulasController {
     }
   }
 
-  // Actualizar una aula (y su estado manual si se proporciona)
+  // Actualizar una aula (y su estado manual si se QUIERE)
   async update(req, res) {
     try {
       const { id } = req.params;
