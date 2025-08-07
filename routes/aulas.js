@@ -12,7 +12,7 @@ router.get('/:id', verificarToken, AulasController.getById);
 
 // Crear aula (solo profesores pueden hacerlo)
 router.post('/', verificarToken, verificarRol(['profesor']), AulasController.create);
-
+ 
 // Actualizar aula (solo profesores)
 router.put('/:id', verificarToken, verificarRol(['profesor']), AulasController.update);
 

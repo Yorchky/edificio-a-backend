@@ -6,7 +6,7 @@ class UsuarioController {
   // Inicio de sesión del usuario (login)
   async login(req, res) {
     const { username, password } = req.body;
-
+ 
     const usuarioEncontrado = await usuariosModel.findOne({ username });
     if (!usuarioEncontrado) return res.status(404).json({ mensaje: 'Usuario no encontrado' });
 

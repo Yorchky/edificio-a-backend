@@ -5,7 +5,7 @@ class dbClient {
   constructor() {
     this.conectarBaseDatos();
   }
-
+ 
   // Establece conexión con MongoDB
   async conectarBaseDatos() {
     try {

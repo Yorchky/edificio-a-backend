@@ -21,7 +21,7 @@ class aulasModelo {
   async findByIdAndUpdate(id, data) {
     return await Aulas.findByIdAndUpdate(id, data, { new: true });
   }
-
+ 
   // Eliminar un aula por ID
   async findByIdAndDelete(id) {
     return await Aulas.findByIdAndDelete(id);

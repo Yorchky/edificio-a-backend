@@ -11,7 +11,7 @@ Este proyecto es una API backend desarrollada con Node.js, Express y MongoDB Atl
 - JSON Web Tokens (JWT)  
 - Bcrypt (encriptación de contraseñas)  
 - dotenv (variables de entorno)  
-
+ 
 ---
 
 ## Instrucciones de instalación

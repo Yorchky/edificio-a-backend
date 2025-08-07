@@ -19,7 +19,7 @@ export function verificarToken(req, res, next) {
     return res.status(403).json({ mensaje: 'Token inválido' });
   }
 }
-
+ 
 // Verifica si el usuario tiene uno de los roles permitidos
 export function verificarRol(rolesPermitidos) {
   return (req, res, next) => {

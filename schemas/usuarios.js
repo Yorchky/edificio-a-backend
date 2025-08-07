@@ -15,3 +15,4 @@ const usuariosSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 export default mongoose.model('users', usuariosSchema);
+ 

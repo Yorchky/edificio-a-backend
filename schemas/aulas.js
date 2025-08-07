@@ -12,7 +12,7 @@ const aulasSchema = new mongoose.Schema({
     }
   ],
   estadoManual: {
-    type: String,
+    type: String, 
     enum: ['Libre', 'Ocupado'],
     default: null
   },

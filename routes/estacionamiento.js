@@ -15,5 +15,5 @@ router.post('/', verificarToken, verificarRol(['profesor']), EstacionamientoCont
 
 // Eliminar un espacio por ID (solo profesores)
 router.delete('/:id', verificarToken, verificarRol(['profesor']), EstacionamientoController.delete);
-
+ 
 export default router;

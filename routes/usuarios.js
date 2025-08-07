@@ -9,4 +9,4 @@ router.post('/login', UsuarioController.login);
 // Ruta para registrar usuario
 router.post('/register', UsuarioController.register);
 
-export default router;
+export default router; 

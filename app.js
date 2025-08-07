@@ -10,7 +10,7 @@ import routesUsuarios from './routes/usuarios.js';
 import dbConfig from './config/dbConfig.js';
 
 const app = express();
-
+ 
 // Middleware para aceptar peticiones JSON y permitir CORS
 app.use(cors());
 app.use(bodyParser.json());

@@ -16,7 +16,7 @@ class estacionamientoModelo {
   async findById(id) {
     return await Estacionamiento.findById(id);
   }
-
+ 
   // Eliminar un espacio por ID
   async findByIdAndDelete(id) {
     return await Estacionamiento.findByIdAndDelete(id);

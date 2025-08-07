@@ -11,6 +11,6 @@ class usuariosModelo {
   async findOne(filtro) {
     return await Usuarios.findOne(filtro);
   }
-}
+} 
 
 export default new usuariosModelo();

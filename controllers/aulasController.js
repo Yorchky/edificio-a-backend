@@ -73,14 +73,14 @@ class AulasController {
     }
   }
 
-  // Actualizar una aula (y su estado manual si se proporciona)
+  // Actualizar una aula (y su estado manual si se QUIERE)
   async update(req, res) {
     try {
       const { id } = req.params;
       const { estado, ...otrosDatos } = req.body;
       const actualizacion = { ...otrosDatos };
 
-      // Si se manda estado manual, se actualiza
+      // Si se manda estado manual se actualiza
       if (estado) {
         actualizacion.estadoManual = estado;
         actualizacion.ultimoCambioManual = new Date();

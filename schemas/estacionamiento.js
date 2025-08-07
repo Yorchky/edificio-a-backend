@@ -11,3 +11,4 @@ const estacionamientoSchema = new mongoose.Schema({
 }, { timestamps: true });
 
 export default mongoose.model('estacionamiento', estacionamientoSchema);
+ 

@@ -10,7 +10,7 @@ class EstacionamientoController {
       res.status(500).json({ mensaje: 'Error al obtener estacionamientos', error: error.message });
     }
   }
-
+ 
   // Obtener un solo espacio de estacionamiento por ID
   async getById(req, res) {
     try {
