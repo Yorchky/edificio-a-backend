@@ -20,6 +20,20 @@ class EstacionamientoController {
       res.status(500).json({ mensaje: 'Error al crear lugar de estacionamiento', error });
     }
   }
+  // Obtener espacio de estacionamiento por ID
+async getById(req, res) {
+  try {
+    const { id } = req.params;
+    const espacio = await Estacionamiento.findById(id);
+    if (!espacio) return res.status(404).json({ mensaje: 'Espacio no encontrado' });
+
+    res.json(espacio);
+  } catch (error) {
+    res.status(500).json({ mensaje: 'Error al buscar espacio', error });
+  }
 }
+
+}
+
 
 export default new EstacionamientoController();

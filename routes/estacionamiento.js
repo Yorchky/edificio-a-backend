@@ -7,6 +7,9 @@ const router = express.Router();
 // Obtener todos los espacios (requiere token)
 router.get('/', verificarToken, EstacionamientoController.getAll);
 
+router.get('/:id', verificarToken, EstacionamientoController.getById);
+
+
 // Crear nuevo espacio (solo profesores)
 router.post('/', verificarToken, verificarRol(['profesor']), EstacionamientoController.create);
 

@@ -76,6 +76,18 @@ class AulasController {
       res.status(500).json({ mensaje: 'Error al crear aula', error });
     }
   }
+  // Obtener un aula por ID
+async getById(req, res) {
+  try {
+    const { id } = req.params;
+    const aula = await aulasModel.findById(id);
+    if (!aula) return res.status(404).json({ mensaje: 'Aula no encontrada' });
+
+    res.json(aula);
+  } catch (error) {
+    res.status(500).json({ mensaje: 'Error al buscar aula', error });
+  }
+}
 
   // Eliminar un aula
   async delete(req, res) {

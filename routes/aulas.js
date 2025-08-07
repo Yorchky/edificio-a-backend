@@ -7,6 +7,9 @@ const router = express.Router();
 // Obtener todas las aulas (requiere token)
 router.get('/', verificarToken, AulasController.getAll);
 
+router.get('/:id', verificarToken, AulasController.getById);
+
+
 // Actualizar aula (solo profesores)
 router.put('/:id', verificarToken, verificarRol(['profesor']), AulasController.update);
 
